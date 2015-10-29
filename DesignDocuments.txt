@@ -1,3 +1,9 @@
 http://tronixlabs.com/iot/esp8266-esp-07-wifi-board-with-full-io-chip-antenna-and-full-external-antenna-bundle-australia/
 https://github.com/mattcallow/esp8266/blob/master/esp8266.ino
 https://github.com/esp8266/esp8266-wiki/wiki/Pin-definition
+
+Pinout: 
+CH PD: wired to P___(generic output)
+Wifi RX: USART1_RX, PA10
+wifi TX: USART1_TX, PA9
+Wifi Reset: wired to P___(generic output)
