@@ -7,3 +7,5 @@ CH PD: wired to P___(generic output)
 Wifi RX: USART1_RX, PA10
 wifi TX: USART1_TX, PA9
 Wifi Reset: wired to P___(generic output)
+
+Baud rate should be 9600 or 115200
