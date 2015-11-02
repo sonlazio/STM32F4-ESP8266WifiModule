@@ -78,6 +78,8 @@ int main(void)
   MX_USART1_UART_Init();
 
   /* USER CODE BEGIN 2 */
+  //UART initialized
+  HAL_UART_Transmit(huart1, uint8_t *pData, uint16_t Size, uint32_t Timeout);//TODO transmit test command
 
   /* USER CODE END 2 */
 
@@ -122,7 +124,7 @@ void MX_USART1_UART_Init(void)
 {
 
   huart1.Instance = USART1;
-  huart1.Init.BaudRate = 115200;
+  huart1.Init.BaudRate = 115200;	//baud rate is correct, can also use 9600
   huart1.Init.WordLength = UART_WORDLENGTH_8B;
   huart1.Init.StopBits = UART_STOPBITS_1;
   huart1.Init.Parity = UART_PARITY_NONE;
